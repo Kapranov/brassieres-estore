@@ -1,0 +1,33 @@
+== README
+
+https://github.com/spree/spree
+https://guides.spreecommerce.com/developer/getting_started_tutorial.html
+
+http://blog.benmorgan.io/page/3
+http://blog.benmorgan.io/post/92211936811/we-are-unable-to-calculate-shipping-rates-for-the
+
+Email [xxx@xxx.com]:
+Password [xxx123]:
+
+bash> rake spree_sample:load
+
+
+('Ukraine',            'UKR', 'UA', 'UKRAINE',            '804', 't')
+('United States',      'USA', 'US', 'UNITED STATES',      '840', 't')
+('Russian Federation', 'RUS', 'RU', 'RUSSIAN FEDERATION', '643', 't')
+
+
+
+
+ deployer 16:43:08 /tmp/mystore$ rake db:seed
+loading ruby /home/deployer/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/spree_core-3.0.0/db/default/spree/countries.rb
+rake aborted!
+ActiveRecord::StatementInvalid: SQLite3::SQLException: near ",": syntax error:   INSERT INTO spree_countries ("name", "iso3", "iso", "iso_name", "numcode", "states_required")
+  VALUES ('Andorra', 'AND', 'AD', 'ANDORRA', '020', 't'), ('United Arab Emirates', 'ARE', 'AE', 'UNITED ARAB EMIRATES', '784', 't'), ('Afghanistan', 'AFG', 'AF', 'AFGHANISTAN', '004', 't'), ('Antigua and Barbuda', 'ATG', 'AG', 'ANTIGUA AND BARBUDA', '028', 't'), ('Anguilla', 'AIA', 'AI', 'ANGUILLA', '660', 'f'), ('Albania', 'ALB', 'AL', 'ALBANIA', '008', 't'), ('Armenia', 'ARM', 'AM', 'ARMENIA', '051', 't'), ('Angola', 'AGO', 'AO', 'ANGOLA', '024', 't'), ('Antarctica', 'ATA', 'AQ', 'ANTARCTICA', '010', 'f'), ('Argentina', 'ARG', 'AR', 'ARGENTINA', '032', 't'), ('American Samoa', 'ASM', 'AS', 'AMERICAN SAMOA', '016', 'f'), ('Austria', 'AUT', 'AT', 'AUSTRIA', '040', 't'), ('Australia', 'AUS', 'AU', 'AUSTRALIA', '036', 't'), ('Aruba', 'ABW', 'AW', 'ARUBA', '533', 'f'), ('Åland Islands', 'ALA', 'AX', 'ÅLAND ISLANDS', '248', 'f'), ('Azerbaijan', 'AZE', 'AZ', 'AZERBAIJAN', '031', 't'), ('Bosnia and Herzegovina', 'BIH', 'BA', 'BOSNIA AND HERZEGOVINA', '070', 't'), ('Barbados', 'BRB', 'BB', 'BARBADOS', '052', 't'), ('Bangladesh', 'BGD', 'BD', 'BANGLADESH', '050', 't'), ('Belgium', 'BEL', 'BE', 'BELGIUM', '056', 't'), ('Burkina Faso', 'BFA', 'BF', 'BURKINA FASO', '854', 't'), ('Bulgaria', 'BGR', 'BG', 'BULGARIA', '100', 't'), ('Bahrain', 'BHR', 'BH', 'BAHRAIN', '048', 't'), ('Burundi', 'BDI', 'BI', 'BURUNDI', '108', 't'), ('Benin', 'BEN', 'BJ', 'BENIN', '204', 't'), ('Saint Barthélemy', 'BLM', 'BL', 'SAINT BARTHéLEMY', '652', 'f'), ('Bermuda', 'BMU', 'BM', 'BERMUDA', '060', 'f'), ('Brunei Darussalam', 'BRN', 'BN', 'BRUNEI DARUSSALAM', '096', 't'), ('Bolivia, Plurinational State of', 'BOL', 'BO', 'BOLIVIA, PLURINATIONAL STATE OF', '068', 't'), ('Bonaire, Sint Eustatius and Saba', 'BES', 'BQ', 'BONAIRE, SINT EUSTATIUS AND SABA', '535', 't'), ('Brazil', 'BRA', 'BR', 'BRAZIL', '076', 't'), ('Bahamas', 'BHS', 'BS', 'BAHAMAS', '044', 't'), ('Bhutan', 'BTN', 'BT', 'BHUTAN', '064', 't'), ('Bouvet Island', 'BVT', 'BV', 'BOUVET ISLAND', '074', 'f'), ('Botswana', 'BWA', 'BW', 'BOTSWANA', '072', 't'), ('Belarus', 'BLR', 'BY', 'BELARUS', '112', 't'), ('Belize', 'BLZ', 'BZ', 'BELIZE', '084', 't'), ('Canada', 'CAN', 'CA', 'CANADA', '124', 't'), ('Cocos (Keeling) Islands', 'CCK', 'CC', 'COCOS (KEELING) ISLANDS', '166', 'f'), ('Congo, The Democratic Republic of the', 'COD', 'CD', 'CONGO, THE DEMOCRATIC REPUBLIC OF THE', '180', 't'), ('Central African Republic', 'CAF', 'CF', 'CENTRAL AFRICAN REPUBLIC', '140', 't'), ('Congo', 'COG', 'CG', 'CONGO', '178', 't'), ('Switzerland', 'CHE', 'CH', 'SWITZERLAND', '756', 't'), ('Côte d''Ivoire', 'CIV', 'CI', 'CôTE D''IVOIRE', '384', 't'), ('Cook Islands', 'COK', 'CK', 'COOK ISLANDS', '184', 'f'), ('Chile', 'CHL', 'CL', 'CHILE', '152', 't'), ('Cameroon', 'CMR', 'CM', 'CAMEROON', '120', 't'), ('China', 'CHN', 'CN', 'CHINA', '156', 't'), ('Colombia', 'COL', 'CO', 'COLOMBIA', '170', 't'), ('Costa Rica', 'CRI', 'CR', 'COSTA RICA', '188', 't'), ('Cuba', 'CUB', 'CU', 'CUBA', '192', 't'), ('Cape Verde', 'CPV', 'CV', 'CAPE VERDE', '132', 't'), ('Curaçao', 'CUW', 'CW', 'CURAçAO', '531', 'f'), ('Christmas Island', 'CXR', 'CX', 'CHRISTMAS ISLAND', '162', 'f'), ('Cyprus', 'CYP', 'CY', 'CYPRUS', '196', 't'), ('Czech Republic', 'CZE', 'CZ', 'CZECH REPUBLIC', '203', 't'), ('Germany', 'DEU', 'DE', 'GERMANY', '276', 't'), ('Djibouti', 'DJI', 'DJ', 'DJIBOUTI', '262', 't'), ('Denmark', 'DNK', 'DK', 'DENMARK', '208', 't'), ('Dominica', 'DMA', 'DM', 'DOMINICA', '212', 't'), ('Dominican Republic', 'DOM', 'DO', 'DOMINICAN REPUBLIC', '214', 't'), ('Algeria', 'DZA', 'DZ', 'ALGERIA', '012', 't'), ('Ecuador', 'ECU', 'EC', 'ECUADOR', '218', 't'), ('Estonia', 'EST', 'EE', 'ESTONIA', '233', 't'), ('Egypt', 'EGY', 'EG', 'EGYPT', '818', 't'), ('Western Sahara', 'ESH', 'EH', 'WESTERN SAHARA', '732', 'f'), ('Eritrea', 'ERI', 'ER', 'ERITREA', '232', 't'), ('Spain', 'ESP', 'ES', 'SPAIN', '724', 't'), ('Ethiopia', 'ETH', 'ET', 'ETHIOPIA', '231', 't'), ('Finland', 'FIN', 'FI', 'FINLAND', '246', 't'), ('Fiji', 'FJI', 'FJ', 'FIJI', '242', 't'), ('Falkland Islands (Malvinas)', 'FLK', 'FK', 'FALKLAND ISLANDS (MALVINAS)', '238', 'f'), ('Micron
+/tmp/mystore/db/seeds.rb:10:in `<top (required)>'
+SQLite3::SQLException: near ",": syntax error
+/tmp/mystore/db/seeds.rb:10:in `<top (required)>'
+Tasks: TOP => db:load_dir
+(See full trace by running task with --trace)
+ deployer 16:46:41 /tmp/mystore$ 
+

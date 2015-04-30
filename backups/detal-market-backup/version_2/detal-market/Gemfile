@@ -1,0 +1,86 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.0.5'
+gem 'sqlite3'
+gem 'sass-rails', '~> 4.0.2'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'rb-readline'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer'
+gem 'jquery-rails'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 1.2'
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
+# gem 'dotenv', github: 'ecbypi/dotenv', branch: 'overload-environment-variables'
+gem 'dotenv', '0.9.0'
+gem 'dotenv-rails', '0.9.0'
+gem 'tinymce-rails-langs'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]
+
+# gem 'thin'
+# Need setup - https://github.com/spree/spree-simple-blog
+# gem 'spree_simple_blog', '3.0.4'
+
+gem 'spree', '2.2.2'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
+gem 'spree_auth_devise', github:'spree/spree_auth_devise', branch: '2-2-stable'
+gem 'spree_product_zoom', github: 'spree/spree_product_zoom', branch: '2-2-stable'
+gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-2-stable'
+gem "spree_comments", github: 'spree/spree_comments', branch: '2-2-stable'
+gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-2-stable'
+gem 'spree_recently_viewed', github: 'spree/spree_recently_viewed', branch: '2-2-stable'
+gem 'spree_reviews', github: 'spree/spree_reviews', branch: '2-2-stable'
+gem 'spree_wishlist', github: 'spree/spree_wishlist', branch: '2-2-stable'
+gem 'spree_related_products', github: 'spree/spree_related_products', branch: '2-2-stable'
+gem 'spree_multi_currency', github: 'spree/spree_multi_currency', branch: '2-2-stable'
+gem 'spree_store_credits', github: 'spree/spree_store_credits'
+gem 'spree_print_invoice' , github: 'spree/spree_print_invoice', branch: '2-2-stable'
+gem 'spree_analytics', github: 'spree/spree_analytics'
+gem 'spree_fancy', github: 'spree/spree_fancy', branch: '2-2-stable'
+gem 'spree_product_assembly', github: 'spree/spree-product-assembly', branch: '2-2-stable'
+gem 'spree_social_products', github: 'spree/spree_social_products'
+gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '2-2-stable'
+gem 'spree_editor', github: 'spree/spree_editor', branch: '2-2-stable'
+# gem 'spree_multi_domain', github: 'spree/spree-multi-domain', branch: '2-2-stable'
+gem 'spree_email_to_friend', github: 'spree/spree_email_to_friend', branch: '2-2-stable'
+gem 'spree_volume_pricing', github: 'spree/spree_volume_pricing', branch: '2-2-stable'
+gem 'hub_samples', '1.0'
+gem 'spree_env_ribbon', github: 'freego/spree_env_ribbon', branch: '2-2-stable'
+
+# gem 'spree_showcase', github: 'daemonsy/spree_showcase'
+
+# https://github.com/digitalm/spree_add_on_menu
+# https://github.com/joneslee85/spree_ajax_add_to_cart
+# https://github.com/daemonsy/spree_showcase
+# https://github.com/secoint/spree_online_support
+# https://github.com/secoint/spree_special_offers
+# https://github.com/citrus/spree_variant_options
+# https://github.com/priviterag/spree_slider
+# http://spreecommerce.com/extensions/145-spree-videos
+# https://github.com/pero-ict-solutions/spree-homepager
+# https://github.com/greendog/spree_contact_us
+# https://github.com/citrus/spree_mail
+# http://spreecommerce.com/extensions/52-spree-yandex-market
+# https://github.com/pronix/spree-yandex-market
+# http://vasilec.blogspot.com/2009/12/spree-yandexmarket.html
+# https://github.com/pronix/spree-multi-currency
+# https://github.com/pzupan/spree-make-an-offer
+# https://github.com/OshinKaramian/spree-shipping-csv
+# https://github.com/romul/spree_mobile_views
+#

@@ -1,0 +1,53 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  spree:
+    i18n:
+      this_file_language: English
+    price: Price
+    title_name: "Autoshop"
+    autostore: "Autostore"
+    latest_products: "Latest Products"
+    featured_products: "Featured Products"
+    shop: "Shop"
+    welcome: "Welcome to our amazing store!"
+    choose: "Choose"
+    anything: "anything"
+    wish: " you wish, we’ll ship it"
+    anywhere: "anywhere!"
+    offer: "Our Best Offers"
+    regular: "Regular Services"
+    important: "Important info"
+    info: "This website is NOT a real store, it's a fully working demo application for Free Commerce. Please feel free to play around, but don't submit any information you would not consider public!"
+    products: "New Products"
+    sellers: "Top Sellers"
+    specials: "Specials"
+    manufacturers: "Manufacturers"
+    suppliers: "Suppliers"
+    service: "Service"
+    contact: "Contact"
+    shipping: "Shipping Info"
+    returns: "Returns"
+    faq: "F.A.Q."
+    size: "Size Chart"
+    shopper: "Personal Shopper"

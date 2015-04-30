@@ -1,0 +1,234 @@
+source 'https://rubygems.org'
+
+ruby '2.2.1'
+
+gem 'rails',                              '4.2.1'
+gem 'sprockets',                          '2.12.3'
+gem 'sqlite3',                            '1.3.10'
+gem 'sass-rails',                         '5.0.3'
+gem 'uglifier',                           '2.7.1'
+gem 'coffee-rails',                       '4.1.0'
+gem 'jquery-rails',                       '4.0.3'
+gem 'turbolinks',                         '2.5.3'
+gem 'jbuilder',                           '2.2.13'
+gem 'binding_of_caller',                  '0.7.3.pre1'
+gem 'globalize',                          '5.0.1'
+gem 'tinymce-rails-langs'
+
+group :development, :test do
+  gem 'byebug',                           '4.0.5'
+  gem 'web-console',                      '2.1.2'
+  gem 'spring',                           '1.3.4'
+end
+
+gem 'spree'
+gem 'spree_gateway',                      '3.0.0'
+gem 'spree_auth_devise',                  '3.0.0'
+gem 'spree_i18n',                         '3.0.0'
+gem 'spree_comments',                     '3.0.0'
+# gem 'spree_social',                       github: 'spree-contrib/spree_social',         branch: '3-0-stable'
+# fixed it spree-static-content
+# https://github.com/pero-ict-solutions/spree-static-content.git
+gem 'spree_product_zoom',                 '3.0.0'
+gem 'spree_static_content',               '3.0.0'
+gem 'spree_mail_settings',                '3.0.0'
+gem 'spree_html_email',                   '3.0.0'
+# README setup sitemap https://www.omniref.com/ruby/gems/sitemap_generator/1.5.2
+gem 'spree_sitemap',                      '3.0.0'
+gem 'spree_reviews',                      '3.0.0'
+gem 'spree_print_invoice',                '3.0.0'
+gem 'spree_wishlist',                     '3.0.0'
+gem 'spree_email_to_friend',              '3.0.0'
+gem 'spree_social_products',              '3.0.0'
+gem 'spree_recently_viewed',              '3.0.0'
+# This extension comes with three sliders plugins: Nivo, SimpleCarousel and Anything slider
+gem 'spree_slider',                       '3.0.0'
+gem 'spree_multi_currency',               '3.0.0'
+# Problem Russian locale when use this package
+gem 'spree_editor',                       '3.0.0'
+# Result NONE
+gem 'spree_address_book',                 '3.0.0'
+# Result NONE
+gem 'spree_pos',                          '3.0.0'
+# Result NONE
+gem 'spree_html_invoice',                 '3.0.0'
+# Core extension to display basic graphs and charts on store activity.
+# gem 'spree_simple_dash',                  '3.0.0'
+#
+# gem 'deface'
+# gem 'spree_multilingual_static_content',  '3.0.0'
+# gem "spree_env_ribbon",                   '3.0.0'
+# NONE gem 'spree_fancy',                        github: 'spree/spree_fancy',                  branch: '3-0-stable'
+#
+#  An ember.js application to add a one page checkout to Spree.
+#  https://github.com/nebulab/spree_ember_one_page_checkout.git
+#
+#  The example repository that goes with http://nebulab.it/blog/using-ember-js-with-spree/
+#  https://github.com/nebulab/spree-ember-example.git
+#
+#  Spree EXTENSIONS
+#
+#  Adds the ability to create a different discount in percentage for each item in the cart with the same coupon code
+#  https://github.com/nebulab/spree_line_item_discount.git
+#
+#  http://github.com/nebulab/spree-subscriptions
+#  http://github.com/nebulab/spree_return_authorizations_frontend
+#  http://github.com/nebulab/spree_exclusive_products
+#  http://github.com/aegixx/spree_alternate_prices
+#  http://github.com/spree/spree_store_credits
+#  http://github.com/hefan/spree_payone_frontend
+#  http://github.com/spree-contrib/spree_store_credits
+#  http://github.com/spree-contrib/spree_social
+#  http://github.com/spree-contrib/spree_comments
+#  http://github.com/mespina/spree_second_units
+#  http://github.com/nathandao/spree_add_to_cart_ajax
+#  http://github.com/DynamoMTL/spree_waiting_list
+#  http://github.com/mespina/spree_one_page_checkout_bootstrap_frontend
+#  http://github.com/freego/spree_scaffold
+#  http://github.com/freego/spree_slug_history
+#
+#
+#
+#
+#
+#  Adds a frontend interface to allow user to ask for items returns
+#  https://github.com/nebulab/spree_return_authorizations_frontend.git
+#
+#  SpreeSocialPromotions:
+#  https://github.com/nebulab/spree_social_promotions.git
+#
+#  Spree extension to handle subscriptions:
+#  https://github.com/nebulab/spree-subscriptions.git
+#
+#  A spree extension with additional reports:
+#  https://github.com/nebulab/spree_simple_reports.git
+#
+#  Spree Invite a Friend Example is an example on how to install DeviseInvitable on Spree.
+#  It's a demo application made for the Installing Devise Invitable on Spree blogpost.
+#  http://nebulab.it/blog/installing-devise-invitable-on-spree/
+#  https://github.com/nebulab/spree-invite-a-friend-example.git
+#
+#  It allows to show some variants only to specific users roles:
+#  https://github.com/nebulab/spree_exclusive_products.git
+#
+#  This extension is a simple way to change the behaviour of checkout_allowed?
+#  to add some constraints to your customers as they proceed to checkout.
+#  https://github.com/nebulab/spree_order_constraints.git
+#
+#  Source code for One Page Checkout blog post
+#  http://nebulab.it/blog/one-page-checkout-with-spree
+#  https://github.com/nebulab/spree-one-page-checkout.git
+#
+#  A little gem that helps you cleanup old, unneeded data from a Spree database:
+#  https://github.com/nebulab/spree-garbage-cleaner.git
+#
+#  Spree Essentials is the base for many content related extensions for Spree:
+#  The basis for other spree_essential extensions.
+#  https://github.com/nebulab/spree_essentials.git
+#  spree_essential_cms: A full featured CMS with pages, contents, images and more
+#   https://github.com/citrus/spree_essential_cms
+#  spree_essential_blog: A blog complete with archives, categories, tags and related products
+#   https://github.com/citrus/spree_essential_blog
+#  spree_essential_press: A simple press page for displaying media related content.
+#   https://github.com/citrus/spree_essential_press
+#
+#  Reworked the contact_us gem to work with Spree:
+#  https://github.com/nebulab/spree_contact_us.git
+#
+#  Mail Chimp integration for your Spree store:
+#  https://github.com/nebulab/spree-mail-chimp.git
+#
+#  Additional calculators for spree:
+#  https://github.com/nebulab/spree-additional-calculators.git
+#
+#  Display current environment on Spree admin
+#  https://github.com/freego/spree_env_ribbon.git
+#
+#  A Spree shipping costs calculator based on total order weight.
+#  https://github.com/freego/spree_simple_weight_calculator.git
+#
+#  SpreeMixpanel
+#  https://github.com/marcosteixeira/spree_mixpanel.git
+#
+#  Integration with Elasticsearch for the Spree framework.
+#  https://github.com/marcosteixeira/spree_elasticsearch.git
+#
+#  Store Locator for Spree.
+#  https://github.com/crowdint/spree_store_locator.git
+#
+#  Allow customers to create a Return Request to be approved by Spree Admins
+#  https://github.com/nicedawg/spree-return-requests.git
+#
+#  Allows admin to provide bank transfer payment method to its users in Spree
+#  https://github.com/vinsol/spree_bank_transfer.git
+#
+#  This extension adds Loyalty Points for users in Spree.
+#  https://github.com/vinsol/spree-loyalty-points.git
+#
+#  Allow each user to use a promotion a maximum of N times
+#  https://github.com/swrobel/spree_promo_user_usage_limit.git
+#
+#  Spree Extension , Show maker name on detail page , enable filter
+#  by maker name list on taxon page , and enable manage makers.
+#  https://github.com/digitalm/spree_maker_search
+#
+#  Spree extension , adding additional Master Controls menu and blank index page
+#  https://github.com/digitalm/spree_add_on_menu.git
+#
+#  Easily add Q&A Sections for products to your Spree-based store.
+#  https://netguru.co/spree
+#  https://github.com/netguru/spree_products_qa.git
+#
+#  A handy extension for adding a new user role - customer assistant
+#  - to your Spree store. https://netguru.co/spree
+#  https://github.com/netguru/spree_customer_care.git
+#
+#  Spree extension enabling logged in users to like products.
+#  https://netguru.co/spree
+#  https://github.com/netguru/spree_product_like.git
+#
+#  Wallet payment method for spree
+#  https://github.com/vinsol/spree_wallet.git
+#
+#  A Spree extension that allows you to display instagram photos
+#  with given tag, anywhere in your store.
+#  https://github.com/netguru/spree_instagram_photos.git
+#
+#  Adds a My Favourites page to the My Account section of spree frontend.
+#  https://github.com/frankmt/spree_my_favourites.git
+#
+#  Favorite Products in Spree
+#  https://github.com/vinsol/spree_favorite_products.git
+#
+#  A Spree extension to enable downloadable products
+#  https://github.com/JDutil/spree_digital.git
+#
+#  Integrates ShipStation with Spree. It enables ShipStation to pull
+#  shipments from the system and update tracking numbers.
+#  https://github.com/DynamoMTL/spree_shipstation.git
+#
+#  Spree/MailChimp Integration
+#  https://github.com/DynamoMTL/spree_chimpy.git
+#
+#  Adds a Terms and Conditions Step (including checkbox)
+#  to your Order Checkout Flow
+#  https://github.com/aleks/spree_better_terms_and_conditions.git
+#
+#  Provides the feature for a Spree store to allow user to club
+#  payment methods to pay for the order
+#  https://spreecommerce.com/extensions/603-spree-split-payments
+#  https://github.com/vinsol/spree-split-payments.git
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

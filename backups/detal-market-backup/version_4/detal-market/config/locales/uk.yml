@@ -1,0 +1,56 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+uk:
+  hello: "Добрый день"
+  spree:
+    i18n:
+      this_file_language: Українська
+    welcome_line: "Ласкаво просимо в наш магазин !"
+    choose_line: "Вибирати"
+    anything_line: "все"
+    you_wish_line: "що хочете, ми відправимо"
+    anywhere_line: "куди завгодно"
+    featured_line: "Рекомендовані товари"
+    latest_products_line: "Останні надходження"
+    our_best_offers: "Пропозиції"
+    regular_services: "Послуги"
+    important_info: "Інформація"
+    new_products_line: "Нові товари"
+    top_sellers_line: "Лідери продажів"
+    specials_line: "Знижки"
+    manufactires_line: "Виробники"
+    suppliers_line: "Постачальники"
+    service_line: "Служба"
+    contact_line: "Контакт"
+    shipping_info_line: "Інформація про доставку"
+    returns_line: "Повернення"
+    faq_line: "Часті питання"
+    size_chart_line: "Таблиця розмірів"
+    personal_shopper_line: "Особисті покупці"
+    important_info_text: "Цей веб-сайт є реальним магазин, але це демонстраційне додаток. Будь ласка, не соромтеся грати навколо, та уявити будь-яку інформацію!"
+    telephone_line: "+38063-798-99-69"
+    email_line: "maoogly@ukr.net"
+    prom_store_line: "Detal-market - магазин"
+    address_line: "Київ, Україна."
+    price: "вартість"
+    shop: "Магазин"
+    home: "Головна"

@@ -1,0 +1,53 @@
+<footer id="footer" class="sixteen columns" data-hook>
+  <div class="container">
+    
+    <div class="four columns">
+      <%= image_tag "logo/spree_50.png", :alt => "Spree Demo Theme", :id => "footer-logo" %>
+      <br>
+      <br>
+      <div class="phone">
+        <a href="callto:012341234567"><%= Spree.t('telephone_line') %></a>
+        </div>
+      <br>
+      <div class="email">
+        <a href="mailto:sales@example.com"><%= Spree.t('email_line') %></a>
+      </div>
+      <br>
+      <div class="address">
+        <%= Spree.t('prom_store_line') %>
+        <br>
+        <%= Spree.t('address_line') %>
+      </div>
+    </div>
+    
+    <div class="four columns">
+      <h5><%= Spree.t('our_best_offers') %></h5>
+      <ul>
+        <li><a href="/products"><%= Spree.t('new_products_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('top_sellers_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('specials_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('manufactires_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('suppliers_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('service_line') %></a></li>
+      </ul>
+    </div>
+    
+    <div class="four columns">
+      <h5><%= Spree.t('regular_services') %></h5>
+      <ul>
+        <li><a href="/products"><%= Spree.t('contact_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('shipping_info_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('returns_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('faq_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('size_chart_line') %></a></li>
+        <li><a href="/products"><%= Spree.t('personal_shopper_line') %></a></li>
+      </ul>
+    </div>
+    
+    <div class="four columns">
+      <h5><%= Spree.t('important_info') %></h5>
+      <p><%= Spree.t('important_info_text') %></p>
+    </div>
+    
+  </div>
+</footer>

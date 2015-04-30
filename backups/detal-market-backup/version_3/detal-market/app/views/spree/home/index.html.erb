@@ -1,0 +1,39 @@
+<% content_for :subheader do %>
+  <%= render 'slider' %>
+<% end %>
+
+<div id="welcome-message">
+  <div class="container">
+    <h1>
+      <%= Spree.t('welcome_line') %>
+      <br>
+      <%= Spree.t('choose_line') %> <a href="/products"><%= Spree.t('anything_line') %></a> <%= Spree.t('you_wish_line') %> <a href="/products"><%= Spree.t('anywhere_line') %></a>
+    </h1>
+  </div>
+</div>
+
+<div class="container">
+  <% if @featured_products %>
+    <div id="featured-products" class="row">
+      <h3><%= Spree.t('featured_line') %></h3>
+      <hr>
+      <ul class="carousel">
+        <% @featured_products.each do |product| %>
+          <%= render 'product', :product => product %>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <% if @latest_products %>
+    <div id="latest-products" class="row">
+      <h3><%= Spree.t('latest_products_line') %></h3>
+      <hr>
+      <ul class="carousel">
+        <% @latest_products.sort_by{ |product| product.created_at }.reverse.each do |product| %>
+          <%= render 'product', :product => product %>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>

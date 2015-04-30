@@ -1,0 +1,23 @@
+== README
+
+http://nebulab.it/blog/using-ember-js-with-spree
+https://github.com/nebulab/spree-ember-example
+
+
+http://eviltrout.com/2013/03/23/ember-without-data.html
+https://github.com/eviltrout/emberreddit-old
+http://emberreddit.eviltrout.com/
+https://github.com/eviltrout/emberreddit.git
+
+
+https://github.com/discourse/onebox
+https://github.com/discourse
+
+
+http://billdami.com/ember-date-picker/
+https://github.com/billdami/ember-spin-box
+http://billdami.com/ember-spin-box/
+http://andycrum.github.io/ember-data-model-maker/
+http://reefpoints.dockyard.com/categories/ember.html
+http://emberwatch.com/tutorials.html
+http://mozmonkey.com/

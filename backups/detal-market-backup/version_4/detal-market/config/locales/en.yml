@@ -1,0 +1,56 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  spree:
+    i18n:
+      this_file_language: English
+    welcome_line: "Welcome to amazing store !"
+    choose_line: "Choose"
+    anything_line: "anything"
+    you_wish_line: "you wish, we’ll ship it"
+    anywhere_line: " anywhere"
+    featured_line: "Featured Products"
+    latest_products_line: "Latest Products"
+    our_best_offers: "Our Best Offers"
+    regular_services: "Regular Services"
+    important_info: "Important info"
+    new_products_line: "New Products"
+    top_sellers_line: "Top Sellers"
+    specials_line: "Specials"
+    manufactires_line: "Manufacturers"
+    suppliers_line: "Suppliers"
+    service_line: "Service"
+    contact_line: "Contact"
+    shipping_info_line: "Shipping Info"
+    returns_line: "Returns"
+    faq_line: "F.A.iQ."
+    size_chart_line: "Size Chart"
+    personal_shopper_line: "Personal Shopper"
+    important_info_text: "This website is NOT a real store, it's a fully working demo application for Spree Commerce. Please feel free to play around, but don't submit any information you would not consider public!"
+    telephone_line: "+38063-798-99-69"
+    email_line: "maoogly@ukr.net"
+    prom_store_line: "Detal-market eshop"
+    address_line: "Kiev, Ukraine."
+    price: "Price"
+    shop: "shop"
+    home: "home"

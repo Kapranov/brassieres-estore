@@ -1,0 +1,299 @@
+#
+# BEGIN
+#
+# https://github.com/spree/deface
+# https://github.com/spree/spree_fancy
+# http://guides.spreecommerce.com/developer/view.html
+# http://stackoverflow.com/questions/17268719/customizing-spree-home-page
+#
+# https://github.com/spree/spree_fancy
+# https://github.com/priviterag/spree_slider
+# http://guides.spreecommerce.com/developer/authentication.html
+# http://grokbase.com/t/gg/spree-user/144wnm2gwy/duplicates-in-featured-latest-products
+#
+# http://magento.com/
+# http://www.shopify.com/
+# http://www.shopify.com/examples/clothing-and-accessories-templates
+# www.hybris.com/
+# www.hybris.com/ru/
+# http://www.ror-e.com/
+# http://tryshoppe.com/
+# http://demo.tryshoppe.com/ 
+# http://www.piggybak.org/
+# http://www.piggybak.org/demo/
+# https://substruct.subimage.com/blog/silent_birth/
+# http://substruct.subimage.com/
+#
+# Spree Hub endpoint for Twilio
+# Provides a Send SMS webhook to be used in Flows.
+# https://github.com/spree/twilio_endpoint
+# ShipStation endpoint for use with Spree Commerce hub (http://spreecommerce.com/hub) 
+# https://github.com/spree/shipstation_endpoint
+# Helper gem to help communication between a Spree Commerce storefront and hub
+# https://github.com/spree/hub_gem
+# Spree integration for Shopify's active_shipping gem http://spreecommerce.com
+# This is a Spree extension that wraps the popular active_shipping plugin
+# http://github.com/Shopify/active_shipping/tree/master
+# https://github.com/spree/spree_active_shipping
+# Quickbooks is an accounting software package developed and marketed by Intuit.
+# This implementation uses the Quickbooks v3 API through the quickbooks-ruby gem. 
+# https://github.com/spree/quickbooks_endpoint
+# demo 2-2-stable store to demonstrate the spree_hub extension
+# https://github.com/spree/hub-demo-store
+# Multi-tenancy for Spree using Apartment (per tenant databases)
+# https://github.com/spree/spree_shared
+# The Zendesk endpoint takes incoming notification messages with the “notification:error”
+# or “notification:warn” type and generates Zendesk tickets based on them.
+# https://github.com/spree/zendesk_endpoint
+# Spree hub handlers - Will be implemented in the spree_hub extension:
+# https://github.com/spree/hub_gem
+# https://github.com/spree/spree_hub_handlers
+# Shared functionality for SpreeCommerce Hub Endpoints:
+# https://github.com/spree/endpoint_base
+# https://github.com/spree/echo_endpoint
+# For a detailted explanation check out the Spree Guides - Abandoned Carts Endpoint:
+# http://guides.spreecommerce.com/integration/abandoned_carts_integration.html
+# https://github.com/spree/abandoned_carts_endpoint
+# This extension connects your storefront to the SpreeCommerce hub.
+# Learn more about the SpreeCommerce hub. http://spreecommerce.com/product/hub
+# https://github.com/spree/spree_hub_connector
+# Spree Commerce hub integration for Desk.com
+# https://github.com/spree/desk_endpoint
+# https://github.com/spree/exact_target_endpoint
+# For a detailted explanation check out the Spree Guides - Exact Target Endpoint.
+# http://guides.spreecommerce.com/integration/exact_target_integration.html
+# https://github.com/spree/mandrill_endpoint
+# https://github.com/spree/openerp_endpoint
+# https://github.com/spree/custom_tutorial
+# Spree extension that adds client side support for Jirafe analytics.
+# https://github.com/spree/spree_jirafe
+# Sinatra app that serves as an example of how to build an integration for the SpreeCommerce hub
+# https://github.com/spree/sinatra_integration_example
+# Allowing use of paypal express in spree, using (a modified version of) active merchant
+# https://github.com/spree/spree_paypal_express
+# https://github.com/spree/spree_pro_connector
+# This repo contains sample files used in the Spree Commerce Integrator documentation, including:
+# http://guides.spreecommerce.com/integration/creating_endpoints_tutorial.html
+# http://guides.spreecommerce.com/integration/fulfillment_tutorial.html
+# https://github.com/spree/integration_tutorials
+# https://github.com/spree/hub_demo_store
+# Rails 3 plugin that allows you to customize ERB views in a Rails application
+# without editing the underlying view.
+# https://github.com/spree/deface
+# This is an endpoint application for the Spree Integrator platform.
+# It will feed the Google Analytics Ecommerce Data.
+# For more details see: edgeguides.spreecommerce.com/integration/
+# https://github.com/spree/google_analytics_endpoint
+# This is an endpoint application for the Spree Integrator platform.
+# For more details see: edgeguides.spreecommerce.com/integration/
+# https://github.com/spree/mailchimp_endpoint_old
+# Deployment Service web interface extracted from spreecommerce.com
+# This is a small Rails engine the provides the UI for the Spree Deployment
+# Service on spreecommerce.com
+# https://github.com/spree/deployment_service_website
+# You need to set Spree::Config.cdyne_license_key = "yourkey"
+# https://github.com/spree/spree_cdyne_pav
+# Rails Dog Radio Theme is a standalone theme for Spree Commerce version 0.70.0 or later.
+# https://github.com/spree/spree_rdr_theme
+# Admin UI to allow the removal of sample / test data.
+# https://github.com/spree/spree_clean
+# This is a Spree API resource built with nanoc.
+# https://github.com/spree/api.spreecommerce.com
+# Spree Blue Theme is a standalone theme for Spree Commerce
+# https://github.com/spree/spree_blue_sass_theme
+# Full-featured demo application built with the Spree e-commerce framework
+# http://demo.spreecommerce.com
+# https://github.com/spree/demo
+# Minor tweaks to make Spree pages suitable for page caching
+# https://github.com/spree/spree_page_cache
+# hese are the Puppet modules used by Spree's Deployment Service, s
+# https://github.com/spree/deployment_service_puppet
+# Add support for Skrill / MoneyBookers Quick checkout as a payment method.
+# https://github.com/spree/spree_skrill
+# A lightweight CMS, implemented in Sinatra.
+# http://nestacms.com
+# https://github.com/spree/nesta
+# https://github.com/spree/spree_blue_theme
+# Original Spree Blue theme (0.60.x)
+# Associates guest orders with real user accounts,
+# if the guest order has the same email address as the user's account. 
+# https://github.com/spree/spree_claim_order
+# Multiple stores using a single Spree application instance.
+# https://github.com/spree/spree_share
+# Official Spree Documentation http://guides.spreecommerce.com
+# https://github.com/spree/spree-guides
+# https://github.com/spree/spree_gift_cards
+# gem 'spree_gift_cards', github: 'spree/spree_gift_cards'
+#
+# extensions
+# 
+# http://github.com/vinsol/spree-loyalty-points
+# http://github.com/frankmt/spree_my_favourites
+# http://github.com/vinsol/spree_favorite_products
+# http://github.com/JDutil/spree_digital  
+# https://github.com/DynamoMTL/spree_shipstation
+# http://www.shipstation.com/
+# http://mailchimp.com/
+# https://github.com/DynamoMTL/spree_chimpy
+# https://github.com/aleks/spree_better_terms_and_conditions
+# https://github.com/vinsol/spree-split-payments
+# https://github.com/shopjoy/spree_coinbase_bitcoin_payment
+# https://github.com/freego/spree_env_ribbon
+# https://stripe.com/
+# https://github.com/vinsol/spree-account-recurring
+# https://github.com/vinsol/spree_wallet
+# http://github.com/vinsol/spree_bank_transfer
+# https://github.com/vinsol/spree_favorite_products
+# https://github.com/vinsol/spree-point-of-sale
+# https://github.com/vinsol/spree_admin_roles_and_access
+# https://github.com/vinsol/spree-loyalty-points
+# http://gtbank.com/
+# http://github.com/vinsol/spree-account-recurring
+# https://github.com/vinsol/spree-point-of-sale 
+# https://github.com/azinazadi/spree-multilingual-static-content
+# https://github.com/swrobel/spree_zero_stock_products
+# https://github.com/suryart/spree_lookbook
+# http://github.com/stefansenk/spree_admin_bar
+# http://github.com/AfterShip/spree_aftership
+# https://github.com/stefansenk/spree-blogging-spree
+# https://github.com/LBRapid/spree_sidr
+# https://github.com/CodeCantor/spree-html-invoice
+# https://github.com/CodeCantor/spree-pos
+# https://github.com/openjaf/spree_property_type
+# https://github.com/organicweb/spree-easy-contact
+# http://github.com/openjaf/spree_location
+# https://github.com/goodylabs/spree_address_book
+# https://github.com/traels/spree-promotion-exclude-specials-rule
+# https://github.com/traels/spree-promotion-roles-rule
+# https://github.com/traels/spree-retail-only 
+# https://github.com/onedanshow/spree-subscribe
+# http://github.com/sbounmy/spree_minicart
+# https://github.com/JDutil/spree_group_pricing
+# https://github.com/onedanshow/spree-reorder
+# https://github.com/xmpolaris/spree_essentials
+# https://github.com/citrus/spree_essential_cms 
+# https://github.com/citrus/spree_essential_blog
+# https://github.com/citrus/spree_essential_press
+# https://github.com/JDutil/spree_sitemap
+# http://github.com/fernandoaleman/spree_wysiwyg
+# https://github.com/JDutil/spree_drop_ship
+# https://github.com/damianogiacomello/spree_sunspot
+# https://github.com/damianogiacomello/spree_invoice_generator
+# http://github.com/damianogiacomello/spree_simple_cms
+# https://github.com/damianogiacomello/spree_payment_calculator
+# https://github.com/damianogiacomello/spree_multi_slideshow
+# https://github.com/damianogiacomello/spree_reviews_rating
+# https://github.com/damianogiacomello/spree_banner
+# https://github.com/freego/spree_simple_weight_calculator
+# https://github.com/secoint/spree_self_delivery
+# https://github.com/TylerRick/spree_last_address
+# https://github.com/suryart/spree_active_sale
+# https://github.com/JDutil/spree_gift_card
+# https://github.com/autotelik/datashift_spree
+# https://github.com/davidslvto/spree_related_products
+# https://github.com/davidslvto/spree_related_products
+# https://github.com/olivierbuffon/spree-named-taxes
+# https://github.com/JDutil/spree_contact_us
+# https://github.com/secoint/spree_online_support
+# https://github.com/secoint/spree_products_tags
+# https://github.com/secoint/spree_special_offers
+# https://github.com/matfiz/spree_essential_menus
+# https://github.com/sbounmy/spree_size_chart
+# http://www.hallyustyle.com/
+# https://github.com/greinacker/spree_taxon_promo
+# https://github.com/levymetal/spree_user_groups
+# https://github.com/froomerce/spree_froomerce_fconnect
+# http://froomerce.com/
+# http://froomerce.com/merchant/merchantplatform/fconnect
+# https://github.com/mdlima/spree-master-price
+# https://github.com/spree/spree-product-assembly
+# https://github.com/romul/spree-salecycle
+# https://github.com/jumph4x/spree-batch-products
+# https://github.com/jumph4x/spree_core_charges
+# https://github.com/secoint/synergy_inventory_management
+# https://github.com/webjuice/spree_flexirate_extended
+# https://github.com/biow0lf/spree-heroku
+# https://github.com/iloveitaly/spree_local_tax
+# https://github.com/nebulab/spree-garbage-cleaner
+# https://github.com/joneslee85/spree_ajax_add_to_cart
+# https://github.com/johndavid400/spree_news
+# https://github.com/evrone/spree_autosuggest
+# https://github.com/spree/spree_clean
+# http://github.com/iloveitaly/Spree-Videos
+# https://github.com/citrus/spree_retailers
+# https://github.com/rortechie/spree-braintree
+# https://github.com/GeekOnCoffee/spree_advanced_admin_search
+# https://github.com/citrus/spree_essentials
+# https://github.com/berkes/spree_flat_in_range
+# https://github.com/rortechie/spree-contact-us-with-math-captcha 
+# https://github.com/genuitytech/spree_pinterest
+# https://github.com/tavon/spree_promotion_rules
+# https://github.com/johndavid400/spree_suppliers
+# https://github.com/genuitytech/spree-carrierwave
+# https://github.com/onedesign/spree_content_chunks
+# https://github.com/citrus/spree_redirects
+# https://github.com/jsqu99/spree_reuse_credit_card
+# https://github.com/jeremyhaile/spree_embedded_videos
+# https://github.com/humancopy/spree-change-locale
+# https://github.com/priviterag/spree_delayed_job
+# https://github.com/tomash/globalize-spree
+# https://github.com/joshnuss/spree-sitemap-generator
+# https://github.com/wimm/spree_fulfillment
+# https://github.com/minustehbare/spree-batch-products
+# https://github.com/cnantais/spree_payflow
+# https://github.com/sebastyuiop/spree_pages
+# https://github.com/minustehbare/spree-salecycle
+# https://github.com/tomash/spree-pp-website-standard
+# https://github.com/azimuth/spree_watermark
+# https://github.com/funkensturm/spree_social
+# http://spreecommerce.com/extensions/158-spree_mp3player
+# http://spreecommerce.com/extensions/155-spree_digital
+# https://github.com/cmaujean/spree-snippets
+# https://github.com/romul/spree_advanced_cart
+# https://github.com/romul/spree-solr-search
+# https://github.com/railsdog/spree-google-checkout
+# https://github.com/romul/spree_user_groups
+# http://spreecommerce.com/extensions/147-spree-city-zones
+# http://spreecommerce.com/extensions/145-spree-videos
+# http://spreecommerce.com/extensions/146-spree-advanced-calculators
+# https://github.com/jeroenj/spree-simple_product_translations
+# https://github.com/spree/spree_active_shipping
+# https://github.com/joshnuss/spree-faq
+# https://github.com/pero-ict-solutions/spree-homepager
+# https://github.com/mosaic/spree_product_documents
+# https://github.com/jeroenj/spree-product_translations
+# https://github.com/greendog/spree_contact_us
+# https://github.com/citrus/spree_mail
+# https://github.com/citrus/spree_wholesale
+# https://github.com/pronix/spree-yandex-market
+# https://github.com/sbeam/spree-mail-chimp
+# https://github.com/OshinKaramian/spree-shipping-csv
+# https://github.com/azimuth/spree-order-price-sync
+# END
+
+
+# http://grokbase.com/g/gg/spree-user
+
+No products on home page
+
+The homepage in the Spree Fancy theme is generated using 3 taxons, "Slider", "Featured", and "Latest".
+
+Make sure your products are included in those so they are shown in the appropriate section of the homepage.
+---
+
+You can now go into `config/initializers/spree.rb` and add this code (a
+little nicer)
+
+
+Number of products shown per page (pagination)
+
+Spree.config do |config|
+# Example:
+# Uncomment to override the default site name.
+# config.site_name = "Spree Demo Site"
+config.products_per_page = 100
+end
+Seems to be the way they want you to do it now.
+Thanks Ewan,
+#
+

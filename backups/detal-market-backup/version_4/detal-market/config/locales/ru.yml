@@ -1,0 +1,58 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ru:
+  hello: "Добрый день"
+  spree:
+    i18n:
+      this_file_language: Русский
+    welcome_line: "Добро пожаловать в наш магазин !"
+    choose_line: "Выбирайте"
+    anything_line: "все"
+    you_wish_line: "что вы хотите, и мы доставим его"
+    anywhere_line: "в любое место"
+    featured_line: "Рекомендуемые товары"
+    latest_products_line: "Последние поступления"
+    our_best_offers: "Предложения"
+    regular_services: "Услуги"
+    important_info: "Информация"
+    new_products_line: "Новые товары"
+    top_sellers_line: "Лидеры продаж"
+    specials_line: "Скидки"
+    manufactires_line: "Производители"
+    suppliers_line: "Поставщики"
+    service_line: "Обслуживание"
+    contact_line: "Контакты"
+    shipping_info_line: "Информация о доставке"
+    returns_line: "Возврат"
+    faq_line: "Часто задаваемые вопросы"
+    size_chart_line: "Таблица размеров"
+    personal_shopper_line: "Личные покупки"
+    important_info_text: "Этот веб-сайт является реальным магазин, это демонстрационное приложение. Пожалуйста, не стесняйтесь протестировать данную версию и сообщить нам о результате!"
+    telephone_line: "+38063-798-99-69"
+    email_line: "maoogly@ukr.net"
+    prom_store_line: "Detal-market - магазин"
+    address_line: "Киев, Украина."
+    shop: "Магазин"
+    home: "Главная"
+    show_currency_selector: "Показать меню выбора валют"
+    supported_currencies: "Подержка валют"
+    allow_currency_change: "Применить изменения в валюте"
